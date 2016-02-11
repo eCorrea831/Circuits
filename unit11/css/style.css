@@ -1,0 +1,167 @@
+body{
+	font-family:  'Dosis', sans-serif;
+	font-size: 10px;
+	color: #85291D;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+header {
+	background-color: #85291D;
+	margin-top: 2em;
+	height: 17%;
+	padding-top: 1em;
+}
+
+#logo {
+	border-color: #E6A36C;
+	border-width: .4em;
+	border-style: solid;
+	width: 25em;
+	margin-left: 1em;
+}
+
+nav {
+	float: right;
+	display:  block;
+	text-align: right;
+	font-size: 1.5em;
+	font-weight: 600;
+	word-spacing: 2em;
+	margin-top: 1em;
+	margin-right: 1em;
+	}
+	
+a {
+	color: white;
+	text-decoration: none;
+}	
+	
+a:hover {
+	color: #4FBD6F;
+}
+
+h1 {
+	clear: both;
+	font-family: 'Laila', serif;
+	font-size: 3em;
+	font-weight: 100;
+	text-align: center;
+}
+
+hr {
+	background-color: #4FBD6F;
+	width: 20%;
+	height: .3em;
+	border: none;
+}
+
+h2 {
+	text-align: center;
+	font-weight: 600;
+	font-size: 3.5em;
+	font-style: italic;
+}
+
+#cover {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+p {
+	font-family: 'Laila', serif;
+	float: left;
+	font-weight: 200;
+	font-size: 2em;
+	letter-spacing: -.1em;
+	max-width: 40%;
+	margin-left: 7em;
+}
+
+.action {
+	float: right;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+	letter-spacing: 0;
+	background-color: #4FBD6F;
+	border-color: #E6A36C;
+	border-width: .3em;
+	border-style: groove;
+	padding: .75em;
+	margin-right: 7em;
+}
+
+.action:hover {
+	color: #85291D;
+}
+
+footer {
+	clear: both;
+	margin-top: 2em;
+	border: none;
+	border: none;
+}
+
+footer img {
+	float: left;
+	width: 21%;
+	padding: 2%;
+	border: none;
+	display: block;
+}
+
+@media only screen and (max-width: 800px) {
+
+body {
+	font-size: 8px;
+}
+
+header {
+	height: 24em;
+	padding-top: .5em;
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	width: 15em;
+}
+nav {
+	float: none;
+	text-align: center;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: auto;
+	width: auto;
+	font-size: 2em;
+}
+
+a {
+	border: .1em solid #E6A36C;
+	display: block;
+	padding: .2em;
+}
+
+hr, h2, p {
+	display: none;
+}
+
+#cover {
+	width: 90%;
+}
+
+.action {
+	float: none;
+	text-align: center;
+	padding: .5em;
+	margin: 0em;
+}
+
+}
